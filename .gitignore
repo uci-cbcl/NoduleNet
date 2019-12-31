@@ -1,0 +1,9 @@
+results*/
+*.pyc
+*.so
+.ipynb_checkpoints/*
+.idea/*
+*.o
+*.ipynb
+*.ckpt
+.vscode/*
