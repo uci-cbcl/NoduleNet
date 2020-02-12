@@ -190,6 +190,9 @@ We can visualize the losses during training using Tensorboard. E.g.
 tensorboard --logdir=results/test_py37/runs --port=11001
 ```
 
+### Pretrained weight
+We have uploaded a model pretrained on 0 fold (https://drive.google.com/file/d/1B2aB_4HTw5OEe8jH6XPoQYRJw4hGuDXD/view?usp=sharing).
+
 ### Evaluation
 
 Once training is done, you will need to change the 'initial_checkpoint' in config.py to the file path of the checkpoint you want to use. And then run the following command.
